@@ -9,6 +9,7 @@ body {
   position: sticky;
   top:0;
   z-index: 10;
+
 }
 .navbar{
   /*background-image: linear-gradient( to right, #379683, #557A95);*/
@@ -24,10 +25,77 @@ body {
     color: #5B5B5B;
   /*font-weight:  600;*/
 }
-.fa-bars{
+.fa-bars {
   color: #5B5B5B;
   font-size: 30px !important;
 }
-.navbar-toggler{
+.navbar-toggler {
   outline: none !important;
+}
+
+/*-----------home section----------*/
+#home{
+  background-color: #F4E263;
+}
+.promo-title {
+  text-align: left;
+  color: #5B5B5B;
+  font-size: 40px;
+  font-weight: 200;
+  margin-top: 60px;
+}
+.promo-title1 {
+  font-size: 20px;
+  font-weight: 100;
+  text-align: left;
+  color: #5B5B5B;
+}
+.avatar-img {
+  width: 44%;
+  margin-top: 60px;
+}
+.bottom-img {
+  width: 100%;
+}
+
+/*-----------about-me section----------*/
+
+#about-me{
+  background-color: #FFFFFE;
+}
+.lnu-img {
+
+  width: 80%;
+  margin-top: 30px;
+
+}
+.title {
+  text-align: center;
+  color: #5B5B5B;
+  font-size: 40px;
+  font-weight: 200;
+  margin-top: 30px;
+}
+.title::before {
+  content: '';
+  background: #5B5B5B;
+  height: 4px;
+  width: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(60px);
+}
+.title1 {
+  text-align: left;
+  color: #5B5B5B;
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: 30px;
+}
+
+/*-----------teachers section----------*/
+#teachers
+{
+  background-color: #A8CFBD;
 }

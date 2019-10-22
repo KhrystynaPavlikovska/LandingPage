@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+}
+#nav-bar{
+  position: sticky;
+  top:0;
+  z-index: 10;
+}
+.navbar{
+  /*background-image: linear-gradient( to right, #379683, #557A95);*/
+  padding: 10 !important;
+}
+.navbar-nav li {
+  padding: 0 10px;
+}
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+    color: #5B5B5B;
+  /*font-weight:  600;*/
+}
+.fa-bars{
+  color: #5B5B5B;
+  font-size: 30px !important;
+}
+.navbar-toggler{
+  outline: none !important;
+}

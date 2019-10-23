@@ -6,14 +6,16 @@ body {
   font-family: sans-serif;
 }
 #nav-bar{
+
   position: sticky;
   top:0;
-  z-index: 10;
+  z-index: 40;
 
 }
 .navbar{
   /*background-image: linear-gradient( to right, #379683, #557A95);*/
   padding: 10 !important;
+  background-color: #FFFFFE;
 }
 .navbar-nav li {
   padding: 0 10px;
@@ -43,6 +45,16 @@ body {
   font-size: 40px;
   font-weight: 200;
   margin-top: 60px;
+}
+.promo-title1::before {
+  content: '';
+  background: #5B5B5B;
+  height: 1.5px;
+  width: 70px;
+  margin-left: 0;
+  margin-right: 0;
+  display: block;
+  transform: translateY(35px);
 }
 .promo-title1 {
   font-size: 20px;
@@ -97,5 +109,42 @@ body {
 /*-----------teachers section----------*/
 #teachers
 {
-  background-color: #A8CFBD;
+  background-color: #0E0E0E;
+}
+.titleT {
+  text-align: center;
+  color: #FFFFFE;
+  font-size: 40px;
+  font-weight: 200;
+  margin-top: 30px;
+}
+.titleT::before {
+  content: '';
+  background: #FFFFFE;
+  height: 4px;
+  width: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(60px);
+}
+#teacherSlider {
+  margin-top: 40px;
+  width: 40%
+}
+.carousel-caption h5 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: 30px;
+
+}
+
+/*-----------photo section----------*/
+#photo {
+  background-color: #FFFFFE;
+}
+/*-----------contact section----------*/
+#contact {
+  background-color: #F4E263;
 }

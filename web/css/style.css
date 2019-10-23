@@ -13,7 +13,7 @@ body {
 
 }
 .navbar{
-  /*background-image: linear-gradient( to right, #379683, #557A95);*/
+  
   padding: 10 !important;
   background-color: #FFFFFE;
 }
@@ -70,7 +70,7 @@ body {
   width: 100%;
 }
 
-/*-----------about-me section----------*/
+/*-----------university section----------*/
 
 #university{
   background-color: #FFFFFE;
@@ -153,10 +153,8 @@ body {
 
 }
 .carousel-control-prev {
-
-    left: 10px;  //or you can increase this
-  }
-
+    left: 10px;
+}
 
 .carousel-indicators {
     right: 22% !important;
@@ -177,7 +175,7 @@ body {
     padding: 40px;
 }
 
-/* Override bootstrap column paddings */
+
 .tz-gallery .row > div {
     padding: 6px;
 }

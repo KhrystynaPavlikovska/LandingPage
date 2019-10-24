@@ -13,7 +13,7 @@ body {
 
 }
 .navbar{
-  
+
   padding: 10 !important;
   background-color: #FFFFFE;
 }
@@ -78,7 +78,9 @@ body {
 .lnu-img {
 
   width: 80%;
-  margin-top: 30px;
+display: block;
+  margin: 30px auto 0;
+
 
 }
 .title {
@@ -140,6 +142,11 @@ body {
   margin-top: 50px;
   margin-right:  100px;
   width: 100%;
+
+}
+#slider img{
+  display: block;
+  margin: 0 auto;
 }
 .carousel-control-next {
   margin-right: 120px;

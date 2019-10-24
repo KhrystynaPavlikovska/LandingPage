@@ -20,8 +20,7 @@ body {
 .navbar-nav li {
   padding: 0 10px;
 }
-.navbar-nav li a
-{
+.navbar-nav li a {
     float: right;
     text-align: left;
     color: #5B5B5B;
@@ -36,7 +35,7 @@ body {
 }
 
 /*-----------home section----------*/
-#home{
+#home {
   background-color: #F4E263;
 }
 .promo-title {
@@ -64,7 +63,8 @@ body {
 }
 .avatar-img {
   width: 44%;
-  margin-top: 60px;
+  margin: 70px auto 0;
+  display: block;
 }
 .bottom-img {
   width: 100%;
@@ -72,13 +72,13 @@ body {
 
 /*-----------university section----------*/
 
-#university{
+#university {
   background-color: #FFFFFE;
 }
 .lnu-img {
 
   width: 80%;
-display: block;
+ display: block;
   margin: 30px auto 0;
 
 
@@ -148,24 +148,13 @@ display: block;
   display: block;
   margin: 0 auto;
 }
-.carousel-control-next {
-  margin-right: 120px;
-}
+
 
 .carousel-caption h5 {
-  color: #fff;
+  color: #FFFFFE;
   font-size: 20px;
   font-weight: 100;
   margin-top: 30px;
-
-}
-.carousel-control-prev {
-    left: 10px;
-}
-
-.carousel-indicators {
-    right: 22% !important;
-    left: inherit;
 }
 
 /*-----------photo section----------*/
@@ -181,12 +170,9 @@ display: block;
 .tz-gallery {
     padding: 40px;
 }
-
-
 .tz-gallery .row > div {
     padding: 6px;
 }
-
 .tz-gallery .lightbox img {
     width: 100%;
     border-radius: 0;
